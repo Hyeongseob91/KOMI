@@ -5,10 +5,7 @@ KOMI : Kinematic Optimization & Motion Intelligence
 - 팀장 : 김형섭(hyeongseob)
 - 팀원 : 김상겸(sanggyeom)
 - 팀원 : 이장헌(jangheon)
-
-
-<a href = "https://www.notion.so/Project-3-LLM-1b31d7badadc803da28eecca9b52bd3b?pvs=4"> Team1_notion
-</a>
+- <a href = "https://www.notion.so/Project-3-LLM-1b31d7badadc803da28eecca9b52bd3b?pvs=4"> 협업 기록 : Notion</a>
 
 ## 프로젝트 개요
 KOMI는 AI 기반 실시간 관절 분석 및 LLM을 활용한 원격 진단·맞춤형 재활 운동 추천 시스템입니다. 사용자가 운동 영상을 보고 따라 하면 웹캠을 통해 자세를 분석하고 실시간 피드백을 제공합니다.
