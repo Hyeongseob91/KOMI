@@ -6,6 +6,7 @@ KOMI : Kinematic Optimization & Motion Intelligence
 
 ## 프로젝트 개요
 KOMI는 AI 기반 실시간 관절 분석 및 LLM을 활용한 원격 진단·맞춤형 재활 운동 추천 시스템입니다. 사용자가 운동 영상을 보고 따라 하면 웹캠을 통해 자세를 분석하고 실시간 피드백을 제공합니다.
+- <a href="https://www.canva.com/design/DAGiKMgcty0/BKc66c8gNKqbPAuz8I96HA/edit?utm_content=DAGiKMgcty0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 프로젝트 발표 자료</a>
 
 ## 주요 기능
 - **실시간 자세 분석**: YOLO11 기반 포즈 감지로 사용자의 자세를 실시간 분석
