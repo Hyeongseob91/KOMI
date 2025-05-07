@@ -59,7 +59,8 @@ def is_pose_similar_by_accuracy(current_pose, reference_pose, threshold_px=20, r
 yolo_model = YOLO("yolo11x-pose.pt")
 
 # 기준 마스크 이미지 및 keypoint 로딩
-## Trouble shooting : RGBA 형식이어야 해서 png로 꿀뷰를 사용해 변환함
+## Trouble shooting : RGBA 형식이어야 해서 png로 꿀뷰를 사용해 변환함 -> 해결 안됨
+### 해당 문제 해결을 위해, SAM 모델을 적용하면서 아예 RGBA(png의 형식)로 바뀌도록 함.
 mask_image_path = 'C:/Users/user/Desktop/img_output/squat/mask/side_frame_000_mask.png'
 mask = cv2.imread(mask_image_path, cv2.IMREAD_UNCHANGED)
 print("mask shape:", mask.shape)
