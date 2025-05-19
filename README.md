@@ -25,7 +25,17 @@ KOMI는 AI 기반 실시간 관절 분석 및 LLM을 활용한 원격 진단·�
 - **LLM**: ChromaDB, RAG, LangChain
 - **Server**: FastAPI, WebSocket, Streamlit
 
-## 4. 사용자 시나리오
+## 4. 기술 아키텍처
+### Pose-Estimator
+![Pose-Estimator](./assets/komi_architecture1.png)
+
+### LangChain기반 RAG PipeLine
+![RAG PipeLine](./assets/komi_architecture2.png)
+
+### Multi-Modal WebSocket
+![Multi-Modal WebSocket](./assets/komi_architecture3.png)
+
+## 5. 사용자 시나리오
 
 ### **운동 가이드**
 1. 운동 선택 페이지에서 적합한 운동 선택
@@ -42,7 +52,7 @@ KOMI는 AI 기반 실시간 관절 분석 및 LLM을 활용한 원격 진단·�
 4. 키포인트 기반 시각적 피드백과 교정 지침 확인
 5. 지속적인 자세 교정 및 개선 유도
 
-## 5. 서비스 화면면
+## 6. 서비스 화면면
 
 ### 운동 선택 화면
 ![운동 선택 화면](./assets/ss_main.png)
@@ -81,7 +91,7 @@ KOMI는 AI 기반 실시간 관절 분석 및 LLM을 활용한 원격 진단·�
 6. WebSocket을 통해 결과 전송
 7. Streamlit UI에서 즉각적 피드백 표시
 
-## 6. 설치 및 실행 방법
+## 7. 설치 및 실행 방법
 ```bash
 # 1. 저장소 클론
 git clone https://github.com/LJH0963/KOMI_PJT.git
