@@ -11,7 +11,9 @@
 - <a href = "https://www.notion.so/Project-3-LLM-1b31d7badadc803da28eecca9b52bd3b?pvs=4"> 협업 기록 : Notion</a>
 
 ## 1. 프로젝트 개요
-KOMI는 AI 기반 실시간 관절 분석 및 LLM을 활용한 원격 진단·맞춤형 재활 운동 추천 시스템입니다. 사용자가 운동 영상을 보고 따라 하면 웹캠을 통해 자세를 분석하고 실시간 피드백을 제공합니다.
+- 본 프로젝트는 거동이 불편하거나 의료 접근성이 제한된 사용자들의 재활 치료를 위해 기획되었으며, AI 기반 원격 진료 서비스 구현을 목표로 하고 있습니다. 사용자는 병원에 직접 방문하지 않고도, 집이나 진료실에서 웹캠을 통해 자세와 운동 피드백을 실시간으로 받을 수 있습니다. 이를 통해 자세 교정이 필요한 부위나 근육의 이상 유무를 감지하고 판단할 수 있도록 설계되었습니다.
+프로젝트에서는 특정 부위에 대한 운동 데이터를 수집하여, OpenAI API를 통해 Vector DB에 임베딩 처리 후 저장하였으며, LangChain 기반의 RAG 파이프라인을 구축하였습니다. 또한 OpenCV 기반의 YOLO 모델을 통해 사용자의 실시간 움직임을 감지하면서 데이터를 실시간으로 전송하고, 사전에 설정 된 운동 자세의 오차 범위에서 벗어나면  LLM이 Prompt를 생성하여 AI 의료봇 형태로 맞춤형 진단과 피드백을 제공합니다.
+이러한 과정을 통해 AI 기술을 활용한 공공 의료 서비스 차원의 건강 관리 솔루션을 실현하고자 합니다.
 - <a href="https://www.canva.com/design/DAGiKMgcty0/FlU28OzNAWr1iDMW-knjZw/view?utm_content=DAGiKMgcty0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc1b67947eb"> 프로젝트 발표 자료</a>
 
 ## 2. 주요 기능
